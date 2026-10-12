@@ -232,8 +232,10 @@ table.fig td:nth-child(3) { background: #faf0f0; }
 
 .refs { border-top: 3px solid var(--ink); margin-top: 3em; padding-top: 16px; }
 .refs h2 { font-size: 22px; margin: 0 0 10px; }
-.refs ul { margin: 0; padding-left: 18px; font-size: 15px; color: var(--ink-soft); line-height: 1.55; }
-.refs li { margin: 4px 0; }
+.refs { scroll-margin-top: 100px; }
+.refs ul.ref-list { list-style: none; margin: 0; padding: 0; font-size: 15px; color: var(--ink-soft); line-height: 1.6; }
+.refs ul.ref-list li { margin: 0 0 14px; padding-left: 28px; text-indent: -28px; overflow-wrap: anywhere; }
+.refs ul.ref-list a { color: var(--red-dark); }
 .refs .note { font-size: 13.5px; color: var(--muted); margin-top: 12px; }
 
 .author-box { display: grid; grid-template-columns: 96px 1fr; gap: 22px; margin: 2.4em 0 0; padding: 24px; background: var(--tint); border-top: 4px solid var(--red); }
