@@ -8,7 +8,7 @@ Website cá nhân (HTML/CSS thuần, không cần build) cho bài blog INB20012,
 index.html                  Trang chủ + giới thiệu tác giả
 hedging-not-hugging.html    Bài viết đầy đủ
 assets/css/style.css        Giao diện
-assets/js/main.js           Menu mobile, thanh tiến độ đọc
+assets/js/main.js           Menu mobile, thanh tiến độ đọc, mục lục tự sáng, hiệu ứng hiện dần
 assets/img/                 Logo và hình ảnh
 .nojekyll                   Báo GitHub Pages phục vụ file nguyên trạng
 ```
@@ -32,7 +32,7 @@ Nếu đặt tên repository là `<tên-tài-khoản>.github.io` thì địa ch�
 
 ## Chỉnh sửa nhanh
 
-- **Ngày đăng**: tìm `Published October 2026` trong `hedging-not-hugging.html`.
-- **Danh sách tài liệu tham khảo**: mục *Sources cited* ở cuối `hedging-not-hugging.html`, thay bằng danh sách đầy đủ nếu cần.
+- **Ngày nộp**: tìm `13 / 10 / 2026` trong `hedging-not-hugging.html`.
+- **Danh sách tài liệu tham khảo**: mục *Reference list* ở cuối `hedging-not-hugging.html`, thay bằng danh sách đầy đủ nếu cần.
 - **Mã số sinh viên**: nằm trong thẻ thông tin ở `index.html`; xoá dòng đó nếu không muốn công khai.
-- **Màu chủ đạo**: biến `--red` ở đầu `assets/css/style.css`.
+- **Màu chủ đạo**: biến `--accent` và `--navy` ở đầu `assets/css/style.css`.
